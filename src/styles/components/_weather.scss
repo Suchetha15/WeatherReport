@@ -1,0 +1,33 @@
+.error-message{
+    p{
+        font-family: sans-serif; 
+        font-style: italic;
+    }
+    
+}
+
+.weather-item{
+    p{
+        span{
+            font-weight: 700;
+        }
+    }
+}
+
+.weather-item__temp{
+    img{
+        margin: 0;
+        vertical-align: middle;
+        padding: 0;
+    }
+    .weather-item__box{
+        border-radius: 1.5rem;
+        background: lighten($grey, 40%);
+        padding: 0.5rem;
+        font-size: $s-size;
+    }     
+    .weather-item__minmax{
+        font-size: 1.2rem;
+        color: darken(grey, 30%);
+    }
+}

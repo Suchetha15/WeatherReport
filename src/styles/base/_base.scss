@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+//16*.625= 10 --> rem will be equiv to px i.e. 1.2rem = 12px
+
+body {
+ //   background-color: $dark-blue;
+    font-display: Helvetica, sans-serif, arial;
+    font-size: $m-size;  
+    color: $dark-grey;
+    line-height: 1.6;
+}
+button {
+    cursor: pointer;
+}
+
+.is-active {
+    font-weight: bold;
+}
